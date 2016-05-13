@@ -1,0 +1,35 @@
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\ApplicationInsights.config
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\csc.exe
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\System.Collections.Immutable.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\vbc.exe
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\VBCSCompiler.exe
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\roslyn\VBCSCompiler.exe.config
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Labb1.dll.config
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Labb1.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Labb1.pdb
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.Web.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.WindowsServer.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.ApplicationInsights.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.Web.xml
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.AI.WindowsServer.xml
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.ApplicationInsights.xml
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\obj\Debug\Labb1.dll
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\obj\Debug\Labb1.pdb
+c:\users\annah\documents\visual studio 2015\Projects\Forelasningar\Labb1\obj\Debug\Labb1.csprojResolveAssemblyReference.cache
+C:\Users\annah\Documents\GitHub\HTML\Labb1\obj\Debug\Labb1.dll
+C:\Users\annah\Documents\GitHub\HTML\Labb1\obj\Debug\Labb1.pdb
