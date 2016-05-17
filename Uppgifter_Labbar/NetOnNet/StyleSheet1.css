@@ -1,0 +1,56 @@
+﻿body {
+}
+#box_top{
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:10px;
+    width:610px;
+    height:70px;
+  background-color: red;
+}
+#box2{
+    margin:5px;
+    width:450px;
+    height:200px;
+    background-color: rebeccapurple;
+    float: left;
+}
+#box3{
+    margin: 5px;
+    width: 150px;
+    height: 200px;
+    background-color: deeppink;
+    float: left;
+
+}
+#wrapper{
+    margin:auto;
+
+    width:620px;
+    height:auto;
+}
+#kindafooter{
+    clear: both;
+}
+#bottom{
+     clear: both;
+    margin: 5px;
+    width:610px;
+    height:90px;
+  background-color: forestgreen;
+}
+#aside{
+    clear: both;
+    margin: 5px;
+    width:610px;
+    height:390px;
+  background-color: yellow;    
+}
+#wrapper aside figure{
+    margin: 6px;
+    width: 140px;
+    height: 180px;
+    background-color:aqua;
+    float: left;
+
+}
