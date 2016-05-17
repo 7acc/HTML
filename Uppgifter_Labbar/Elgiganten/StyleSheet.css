@@ -1,0 +1,92 @@
+﻿body {
+    margin: auto;
+    background-color: #b7cbd9;
+}
+#Wrapper{
+    background-color:white;
+    width:1200px; 
+    height: 5000px;  
+    margin: auto;
+      
+}
+#head{
+    width:1200px;
+    background-color: #1e1964;
+
+}
+#links{
+    width:200px;
+    color: white;
+    position: center;
+    margin: auto;
+    
+}
+#logo{
+    width:150px;
+   
+}
+#sidebar{   
+
+     border: solid 0.5px gray;
+     border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+    width:150px;
+    height: 500px;
+    
+    float: left;
+
+}
+#greenthing{
+    text-align:center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    background-color: #88d000;
+    color: white;
+    font-weight:700;
+}
+#udnerthingy{  
+    margin-top:10px;
+    width: 1047px;
+    height: 190px;
+    float: left;      
+}
+#udnerthingy figure{
+    background-color:#f0f0f0;
+    margin: 2px 5px;    
+    float: left;   
+    display: inline;
+}
+#udnerthingy figure figcaption{
+    margin: 0px;
+    font-family: Impact;
+    color: #1e1964;
+    background-color: #f0f0f0;
+}
+#udnerthingy figure figcaption:hover{
+    margin: 0px;
+    font-family: Impact;
+    color: white;
+    background-color: #1e1964;;
+}
+
+#midle{
+   
+}
+#mainimg{
+    margin-top: 10px;
+    height: 399px;
+
+}
+#navlist{
+    
+   margin-left: -20px;
+    list-style-type: none;
+    
+}
+ #navlist li{
+    margin-top:20px;
+}
+ #test{
+     clear:both;
+ }
