@@ -1,0 +1,39 @@
+﻿body {
+    background-color: whitesmoke;
+}
+
+#wrapper {
+    background-color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    max-width:960px;
+    min-width:360px;
+    margin: 30px auto;
+    border: 5px outset black;
+    padding: 50px;
+    outline: 10px dotted hotpink;
+}
+img{
+    width:150px;
+    height: 150px;
+    border-radius:50%;
+}
+
+aside{
+    width:205px;
+    background-color: blue;
+    padding: 20px;
+    float: left;
+    
+}
+article{
+    width: 640px;
+    background-color: red;
+    padding: 20px;
+    float: left;    
+    margin-right:5px;
+    border: 5px solid green;   
+}
+footer{
+    clear:both;
+}
