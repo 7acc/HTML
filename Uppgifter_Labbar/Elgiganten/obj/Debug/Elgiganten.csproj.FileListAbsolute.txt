@@ -28,6 +28,5 @@ C:\Users\annah\Documents\GitHub\HTML\Uppgifter_Labbar\Elgiganten\bin\Microsoft.A
 C:\Users\annah\Documents\GitHub\HTML\Uppgifter_Labbar\Elgiganten\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\annah\Documents\GitHub\HTML\Uppgifter_Labbar\Elgiganten\bin\Microsoft.ApplicationInsights.xml
 C:\Users\annah\Documents\GitHub\HTML\Uppgifter_Labbar\Elgiganten\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\annah\Documents\GitHub\HTML\Uppgifter_Labbar\Elgiganten\obj\Debug\Elgiganten.csprojResolveAssemblyReference.cache
 C:\Users\annah\Documents\GitHub\HTML\Uppgifter_Labbar\Elgiganten\obj\Debug\Elgiganten.dll
 C:\Users\annah\Documents\GitHub\HTML\Uppgifter_Labbar\Elgiganten\obj\Debug\Elgiganten.pdb
