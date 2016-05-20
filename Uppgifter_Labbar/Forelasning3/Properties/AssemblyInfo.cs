@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("F3_2016_05_17")]
+[assembly: AssemblyTitle("Forelasning3")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("F3_2016_05_17")]
+[assembly: AssemblyProduct("Forelasning3")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ac377505-907e-4d69-a01b-dff8613761e9")]
+[assembly: Guid("23f722bc-1ecf-47ce-8bad-cf6fa1189392")]
 
 // Version information for an assembly consists of the following four values:
 //
