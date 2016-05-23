@@ -1,0 +1,9 @@
+﻿body {
+    background-color: white;
+}
+
+#responsive:before {
+    color: black;
+    font-size: 30px;
+    content: "This is for printing";
+}

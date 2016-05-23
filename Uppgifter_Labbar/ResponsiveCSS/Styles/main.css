@@ -1,0 +1,9 @@
+﻿body {
+    background-color: gray;
+}
+
+#responsive:before {
+    font-size: 60px;
+    color: white;
+    content: "This is for computer screens";
+}

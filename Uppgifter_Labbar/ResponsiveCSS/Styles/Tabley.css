@@ -1,0 +1,9 @@
+﻿body {
+    background-color: red;
+}
+
+#responsive:before {
+    color: white;
+    font-size: 40px;
+    content: "This is for tablets";
+}

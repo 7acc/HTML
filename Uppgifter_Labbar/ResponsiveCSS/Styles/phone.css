@@ -1,0 +1,9 @@
+﻿body {
+    background-color: blue;
+}
+
+#responsive:before {
+    color: white;
+    font-size: 30px;
+    content: "This is for phones";
+}
