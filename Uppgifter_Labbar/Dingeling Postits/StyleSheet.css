@@ -1,14 +1,35 @@
 ﻿body {
 }
+#spacing{
+    
+    height:50px;
+}
+#postit-wrapper{
+    
+    top:50px;
+    font-size:22px;
+    font-family:'Freestyle Script';
+    width:100px;
+    height:auto;
 
+}
 
+#postit p{
+    margin:5px 5px 5px 5px;
+    
+}
+#postit img{
+   width:200px;
+   height:150px;
+   
+}
 
 #shadow {
-    position: absolute;
-    top: 184px;
-    left: 95px;
+    position:relative;
+    top: 78px;
+    left: 45px;
     z-index: -1;
-    width: 80px;
+    width: 30px;
     height: 5px;
     box-shadow: 5px 5px 5px 5px;
     transform: rotate(-38deg) skewY(40deg);
@@ -16,27 +37,31 @@
 
 #shadow2{
     opacity:0;
-   position:absolute;
-    top: 160px;
+   position:relative;
+    top: 150px;
     left: 250px;
     z-index: -1;
     width: 80px;
     height: 5px;
     box-shadow: 5px 5px 5px 5px;
-    transform: rotate(28deg) skewY(-40deg);
+    rotation-point:right;
+    transform: rotate(30deg) skewY(-40deg);
 }
 
 #postit {
-    box-shadow: 0px 0px 1px 0px;
+    
+    overflow:hidden;
+    box-shadow: 0px 0px 2px 0px;
     background-color: #5eef34;
     background: linear-gradient(to bottom right, #479d2e,#5eef34);
-    width: 200px;
-    height: 180px;
+    width: 100px;
+    height: 80px;
 }
 
 
 #postit-wrapper:hover #postit {
-    box-shadow: 0px 0px 1px 0px;
+     overflow:hidden;
+    box-shadow: 0px 0px 2px 0px;
     background-color: #5eef34;
     background: linear-gradient(to bottom left, #479d2e,#5eef34);
     width: 200px;
@@ -50,11 +75,11 @@
     
     /*position: absolute;*/
     opacity:1;
-    position:absolute;
-    top: 190px;
+    position:relative;
+    top: 175px;
     left: 250px;
     z-index: -1;
-    width: 80px;
+    width: 110px;
     height: 5px;
     box-shadow: 5px 5px 5px 5px;
     transform: rotate(28deg) skewY(-40deg);
@@ -64,13 +89,13 @@
 }
 #postit-wrapper:hover #shadow {
     opacity:0;
-     position: absolute;
-    top: 184px;
-    left: 115px;
+     position: relative;
+     top: 78px;
+    left: 45px;
     z-index: -1;
-    width: 80px;
+    width: 30px;
     height: 5px;
     box-shadow: 5px 5px 5px 5px;
     transform: rotate(-42deg) skewY(40deg);
-    transition-duration:0.5s;
+    transition-duration:0.6s;
 }
