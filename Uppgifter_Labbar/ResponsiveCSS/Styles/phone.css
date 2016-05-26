@@ -3,32 +3,38 @@
 }
 
 nav {
-    width: 100%;
+    width: 50px;
     position: relative;
     display: inline-block;
 }
 
     nav:hover #l1 {
+        background-color: #ffac01;
+        height: 30px;
         margin-top: 0px;
-        transition-duration: 0.2s;
-    }
-
-    nav:hover #l2 {
-        margin-top: 5px;
-        transition-delay: 0.1s;
         transition-duration: 0.3s;
     }
 
+    nav:hover #l2 {
+        background-color: #ff8501;
+        height: 30px;
+        transition-delay: 0.1s;
+        transition-duration: 0.5s;
+    }
+
     nav:hover #l3 {
-        margin-top: 10px;
-        transition-delay: 0.2s;
-        transition-duration: 0.4s;
+        background-color: #ff5701;
+        height: 30px;
+        transition-delay: 0.3s;
+        transition-duration: 0.7s;
     }
 
 header {
     width: 100%;
     height: 50px;
     background-color: gray;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 #Ddbutton {
@@ -40,15 +46,16 @@ header {
 }
 
 #Ddcontent {
+    overflow: hidden;
+    z-index: 2;
     position: absolute;
-    background-color: #f9f9f9;
+    width: 160px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
 }
 
     #Ddcontent a {
-        height: auto;
-        margin-top: -45px;
+        height: 0px;
         color: black;
         text-decoration: none;
         display: block;
@@ -56,11 +63,11 @@ header {
     }
 
         #Ddcontent a:hover {
-            transition-duration: 0.4s;
             background-color: gray;
         }
 
 #responsive:before {
+    z-index: 0;
     color: white;
     font-size: 30px;
     content: "This is for phones";
