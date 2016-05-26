@@ -110,7 +110,7 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Styles\main.css" />
-    <Content Include="Styles\phone.css" />
+    <Content Include="Styles\Phone\phone.css" />
     <Content Include="Styles\printer.css" />
     <Content Include="Styles\Tabley.css" />
     <Content Include="Web.config" />

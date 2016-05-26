@@ -1,0 +1,129 @@
+﻿body {
+    width: 100%;
+    background: url(http://orig02.deviantart.net/9fb3/f/2007/149/e/0/background_texture_dark_by_colmahouse.jpg) repeat center;
+}
+
+/*______________________________________________________________________________________________________________________________________________________________*/
+/*                   Header              */
+
+
+nav {
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    opacity: 0.9;
+    z-index: 3;
+}
+
+
+    nav:hover #l1 {
+        background-color: #ffac01;
+        opacity: 0.9;
+        height: 50px;
+        transition-duration: 0.3s;
+    }
+
+    nav:hover #l2 {
+        background-color: #ff8501;
+        opacity: 0.9;
+        height: 50px;
+        transition-delay: 0.1s;
+        transition-duration: 0.3s;
+    }
+
+    nav:hover #l3 {
+        background-color: #ff5701;
+        opacity: 0.9;
+        height: 50px;
+        transition-delay: 0.3s;
+        transition-duration: 0.5s;
+    }
+    nav:hover #line {
+        background-color: #ff2801;
+        opacity: 0.9;
+        height: 3px;
+        transition-delay: 0.3s;
+        transition-duration: 0.5s;
+    }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    box-shadow: 10px 5px 20px 6px rgba(225, 225, 225, 0.2);
+    opacity: 0.9;
+}
+
+    header #initials {
+        color: black;
+        text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+        text-align: right;
+        margin-right: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+#Ddbutton {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+    border-right: 1px dotted black;
+    font-size: larger;
+    font-family:'Imprint MT Shadow';
+}
+
+#Ddcontent {
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    width: 460px;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+    #Ddcontent a {
+        height: 0px;
+        text-align: center;
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+    }
+
+        #Ddcontent a:hover {
+            background-color: gray;
+            color: white;
+            opacity: 0.9;
+            font-size: 20px;
+        }
+/*                   Header              */
+/*________________________________________/_____________________________________________________________________________________________________________________*/
+/*                   Footer              */
+footer {
+    position: absolute;
+    left: 0;
+    top: 2000px;
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    opacity: 0.9;
+}
+
+address {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#copy {
+    font-size: 15px;
+    margin-left: 100px;
+}
