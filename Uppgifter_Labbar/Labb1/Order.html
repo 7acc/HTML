@@ -10,7 +10,53 @@
 
 
 
-<body>
 
+
+<body>
+    <div>
+        <h2>Your order</h2>
+        <ul>
+            <li>2st "hängmatta"</li>
+            <li>1st shovel</li>
+        </ul>
+        <h3>Total-price = $372</h3>
+        <hr />
+    </div>
+    <form action="receipt.html">
+        <div id="UserInfo">
+            <h2>User Info!</h2>
+            <label for="uname">UserName</label>
+            <input id="uname" type="text" name="Uname" placeholder="UserName" /><br />
+            <label for="pass">Password</label>
+            <input id="pass" type="password" name="Pass" placeholder="password" /><br />
+            <label for="email">E-Mail</label>
+            <input id="email" type="text" name="Email" placeholder="email@something.com" /><br />
+        </div>
+        <div>
+            <h2>Delivery adress</h2>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="Name" placeholder="Name" /><br />
+            <label for="street">Street</label>
+            <input id="street" type="text" name="street" placeholder="Street" /><br />
+            <label for="zip">Zip-Code</label>
+            <input id="zip" type="text" name="zip" placeholder="Zip code" /><br />
+            <label for="pnumber">Phonenumber</label>
+            <input id="pnumber" type="tel" placeholder="Phone Number" /><br />
+        </div>
+        <div>
+            <h2>Billing adress</h2>
+            <label for="same">Billing-adress same as delivery-adress?</label>
+            <input id="same" type="checkbox" name="same" /><br />
+            <label for="bname">Name</label>
+            <input id="bname" type="text" name="Name" placeholder="Name" /><br />
+            <label for="bstreet">Street</label>
+            <input id="bstreet" type="text" name="street" placeholder="Street" /><br />
+            <label for="bzip">Zip-Code</label>
+            <input id="bzip" type="text" name="zip" placeholder="Zip code" /><br />
+            <label for="bpnumber">Phonenumber</label>
+            <input id="bpnumber" type="tel" placeholder="Phone Number" /><br />
+        </div>
+        <input type="submit" value="Order"/>
+    </form>
 </body>
 </html>

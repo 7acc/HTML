@@ -101,6 +101,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="receipt.html" />
     <Content Include="Shop.html" />
     <Content Include="Stucture.html" />
     <Content Include="Video\Maldive3.ogv" />
