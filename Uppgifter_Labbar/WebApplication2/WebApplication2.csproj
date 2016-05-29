@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E7272380-B049-4017-B7BF-9D78F116655F}</ProjectGuid>
+    <ProjectGuid>{F8F2E452-E1CF-49AD-829A-9394362F0C07}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ResponsiveCSS</RootNamespace>
-    <AssemblyName>ResponsiveCSS</AssemblyName>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,12 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Phone\Longcat.png" />
-    <Content Include="Images\Phone\Longcat_transparent_background.png" />
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="ApplicationInsights.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,15 +104,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Styles\Main\main.css" />
-    <Content Include="Styles\Main\Main_header_footer.css" />
-    <Content Include="Styles\Phone\phone_header.css" />
-    <Content Include="Styles\Phone\Phone_main.css" />
-    <Content Include="Styles\printer.css" />
-    <Content Include="Styles\Tabley.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -135,9 +124,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5142</DevelopmentServerPort>
+          <DevelopmentServerPort>1730</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:5142/</IISUrl>
+          <IISUrl>http://localhost:1730/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

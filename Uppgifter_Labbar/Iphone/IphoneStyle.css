@@ -1,0 +1,68 @@
+﻿body {
+    margin: 0;
+    background-color: palevioletred;
+}
+
+#Phone {
+   
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 480px;
+    height: 900px;
+    background-color: white;
+    border-radius:60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+#screen {
+    width: 80%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap;
+    flex-flow:column wrap;
+   
+    
+   
+    
+}
+.icon{
+    color:white;
+    width:15px;
+  margin-bottom:-190px;
+   justify-content:center;
+}
+.icon img{
+    width:400%;
+   
+}
+
+#main{
+    margin-left:-20px;
+    width:100%;
+    display:flex; 
+    flex-flow:row wrap;
+    flex:6;
+    text-align:center;
+     
+
+}
+
+#bar{
+    width:100%;
+   
+
+    display:flex;
+    flex:1;
+    flex-flow:row;
+    flex-wrap:wrap;
+    align-content:flex-end;
+   
+}
+figcaption {
+  
+}

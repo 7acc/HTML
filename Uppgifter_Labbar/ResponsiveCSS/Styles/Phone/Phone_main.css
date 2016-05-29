@@ -1,0 +1,62 @@
+﻿
+    @import "phone_header.css";
+
+    body {
+    }
+
+
+    #intro {
+        margin-top: 140px;
+        color: white;
+        font-size: 2em;
+        text-align: center;
+    }
+
+        #intro p {
+            margin-top: -30px;
+        }
+
+    #spacing {
+        position: relative;
+        height: 40px;
+        width: 100%;
+        left: -40px;
+        margin-top: 20px;
+        background-color: white;
+        transform: rotate(10deg) skew(10deg);
+        overflow: hidden;
+        z-index: -1;
+    }
+    /*-------------------------------------------------------*/
+    #longcat img {
+        margin-top: -50px;
+        margin-left: -50px;
+        margin-right: 4px;
+        float: left;
+        width: 250px;
+    }
+
+    #longcat {
+        margin-top: 90px;
+        width: auto;
+        color: white;
+        font-family: Arial;
+        margin-right: 10px;
+    }
+
+    #spacing1 {
+        position: relative;
+        right: -40px;
+        height: 40px;
+        width: 100%;
+        margin-top: 60px;
+        background-color: white;
+        transform: rotate(-10deg) skew(-10deg);
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    #postit-wrapper {
+        display: none;
+    }
+}
