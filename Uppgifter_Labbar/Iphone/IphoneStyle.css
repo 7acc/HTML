@@ -11,24 +11,33 @@
     width: 480px;
     height: 900px;
     background-color: white;
+    border:5px solid gray;
     border-radius:60px;
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     justify-content:center;
 }
-
+#hearingthing{
+   position:absolute;
+   top:70px;
+   left:40%;
+    width:80px;
+    height:5px;
+    background-color:black;
+ 
+    
+}
 #screen {
+    margin-top:50px;
+    background: url('090ca05577bc9eee4767377b841d9b48.jpg') no-repeat center ;
     width: 80%;
     height: 70%;
-    background-color: black;
+    border: 8px solid black;
+    border-radius:10px;
     display: flex;
-    flex-wrap:wrap;
-    flex-flow:column wrap;
-   
-    
-   
-    
+    flex-wrap: wrap;
+    flex-flow: column wrap;
 }
 .icon{
     color:white;
@@ -37,8 +46,16 @@
    justify-content:center;
 }
 .icon img{
-    width:400%;
+    width:400%;   
+    transition-duration:0.4s;
    
+}
+.icon figcaption{
+    margin-left:5px;
+}
+.icon:hover img{
+    width:450%;
+    
 }
 
 #main{
@@ -46,7 +63,7 @@
     width:100%;
     display:flex; 
     flex-flow:row wrap;
-    flex:6;
+    flex:5;
     text-align:center;
      
 
@@ -54,7 +71,7 @@
 
 #bar{
     width:100%;
-   
+    margin-left:-20px;
 
     display:flex;
     flex:1;
@@ -63,6 +80,15 @@
     align-content:flex-end;
    
 }
-figcaption {
-  
+#button{
+    position:absolute;
+    bottom:20px;
+    left:42%;
+    width:70px;
+    height:70px;
+    border-radius:100%;
+    background-color:black;
+    cursor:pointer;
 }
+
+

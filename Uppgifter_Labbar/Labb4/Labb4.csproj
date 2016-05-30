@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{168EEF56-4487-41E5-B123-0EB23456B8B7}</ProjectGuid>
+    <ProjectGuid>{B69D013E-EFD0-4AC4-9F7E-3F60E925C7B6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Iphone</RootNamespace>
-    <AssemblyName>Iphone</AssemblyName>
+    <RootNamespace>Labb4</RootNamespace>
+    <AssemblyName>Labb4</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,16 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="090ca05577bc9eee4767377b841d9b48.jpg" />
-    <Content Include="Icons\contacts.png" />
-    <Content Include="Icons\game_center.png" />
-    <Content Include="Icons\maps_.png" />
-    <Content Include="Icons\messages.png" />
-    <Content Include="Icons\phone.png" />
-    <Content Include="Icons\photos.png" />
-    <Content Include="Icons\weather.png" />
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -112,18 +107,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Icons\calcylator.png" />
-    <Content Include="Icons\Camera.png" />
-    <Content Include="Icons\clock.png" />
-    <Content Include="Icons\Mail.png" />
-    <Content Include="Icons\Music.png" />
-    <Content Include="Icons\Safari.png" />
-    <Content Include="Icons\Settings.png" />
-    <Content Include="Icons\store.png" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
-    <Content Include="IphoneStyle.css" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -142,9 +146,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>12158</DevelopmentServerPort>
+          <DevelopmentServerPort>17598</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:12158/</IISUrl>
+          <IISUrl>http://localhost:17598/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
