@@ -1,0 +1,45 @@
+﻿body {
+    margin:0;
+}
+#nav{ 
+    background-color:red;
+    height:10vh;
+}
+.navbar ul{
+    display:flex;
+    flex-wrap:wrap;
+    flex:1;
+    justify-content:space-around;
+}
+.container-fluid{
+    background-color:dimgray;
+  
+}
+#main{
+       margin-top:10px;
+    background-color:red;
+    height:80vh;
+    
+    
+}
+#aside{
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:blue;
+  height:80vh;   
+   
+ 
+    
+}
+#footer-container{
+    height:7.9vh;
+ 
+   background-color:wheat;
+  
+}
+footer{
+    margin-top:10px; 
+   
+   
+    
+}
