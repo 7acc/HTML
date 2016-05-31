@@ -1,45 +1,63 @@
-﻿body {
-    margin:0;
+﻿
+
+@import url(https://fonts.googleapis.com/css?family=Chicle);
+
+body {
+    margin: 0;
+    background-color: red;
 }
-#nav{ 
-    background-color:red;
-    height:10vh;
+
+#header {
+    height: 170px;
+    background: url(Images/total-slides-sunset.jpg) no-repeat center;
 }
-.navbar ul{
-    display:flex;
-    flex-wrap:wrap;
-    flex:1;
-    justify-content:space-around;
+
+    #header h2 {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        color: #ff6a00;
+        font-family: monospace;
+        font-size: 5rem;
+        text-align: center;
+    }
+
+nav {
+    position: absolute;
+    top: 120px;
 }
-.container-fluid{
-    background-color:dimgray;
-  
+
+#topimg, #middleimg, #botimg {
+    height: 400px;
 }
-#main{
-       margin-top:10px;
-    background-color:red;
-    height:80vh;
-    
-    
+
+#topimg {
+    background: url(Images/malediwy1.jpg) no-repeat fixed top;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:#b6ff00;
+    font-size:6rem;
+    font-family:'Chicle', cursive;
 }
-#aside{
-    margin-top:10px;
-    margin-bottom:10px;
-    background-color:blue;
-  height:80vh;   
-   
- 
-    
+#middleimg{
+    background: url()
 }
-#footer-container{
-    height:7.9vh;
- 
-   background-color:wheat;
-  
+
+#contenttop, #contentmiddle, #contentbot {
+    margin-bottom: 10px;
+    background-color: white;
+    height: auto;
 }
-footer{
-    margin-top:10px; 
-   
-   
-    
+
+    #contenttop, #contentmiddle, #contentbot p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 30px;
+    }
+
+#GM {
+    margin-top: 40px;
+    height: 400px;
+    width: auto;
 }
