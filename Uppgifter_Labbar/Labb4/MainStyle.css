@@ -13,6 +13,7 @@ body {
 #header {
     height: 170px;
     background: url(Images/total-slides-sunset.jpg) no-repeat center;
+    background-size:cover;
 }
 
     #header h2 {
@@ -29,6 +30,9 @@ nav {
     position: absolute;
     top: 120px;
 }
+.navbar-nav{
+    margin-left:100px;
+}
 
 #topimg, #middleimg, #botimg {
     height: 400px;
@@ -36,6 +40,7 @@ nav {
 
 #topimg {
     background: url(Images/malediwy1.jpg) no-repeat fixed top;
+    background-size:cover;
     color: #b6ff00;
     font-family: 'Chicle', cursive;
 }
@@ -84,11 +89,4 @@ nav {
 }
 
 
-document.onscroll = function() {
-    if( $(window).scrollTop() > $('header').height() ) {
-        $('nav > div.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
-    }
-    else {
-        $('nav > div.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
-    }
-};
+
