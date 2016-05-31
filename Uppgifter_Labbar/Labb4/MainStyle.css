@@ -1,11 +1,14 @@
-﻿
-
-@import url(https://fonts.googleapis.com/css?family=Chicle);
+﻿@import url(https://fonts.googleapis.com/css?family=Chicle);
 
 body {
     margin: 0;
     background-color: red;
 }
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 ;
+  }
 
 #header {
     height: 170px;
@@ -18,7 +21,7 @@ body {
         width: 100%;
         color: #ff6a00;
         font-family: monospace;
-        font-size: 5rem;
+        font-size: 7em;
         text-align: center;
     }
 
@@ -33,31 +36,59 @@ nav {
 
 #topimg {
     background: url(Images/malediwy1.jpg) no-repeat fixed top;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    color:#b6ff00;
-    font-size:6rem;
-    font-family:'Chicle', cursive;
+    color: #b6ff00;
+    font-family: 'Chicle', cursive;
 }
-#middleimg{
-    background: url()
+
+    #topimg p {
+        margin-top: 5%;
+        width: 100%;
+        font-size: 7em;
+        text-align: center;
+    }
+
+#middleimg {
+    background: url(Images/activityimg1.png) fixed;
+    background-size: cover;
+}
+
+#botimg {
+    background: url(Images/restaurant-tables-with-sea-view.jpg) fixed center;
+    background-size: cover;
 }
 
 #contenttop, #contentmiddle, #contentbot {
-    margin-bottom: 10px;
     background-color: white;
     height: auto;
 }
 
     #contenttop, #contentmiddle, #contentbot p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding: 30px;
+        padding-top: 5%;
+        padding-bottom:5%;
     }
+    #contenttop #about-fp{
+        height:auto;
+        border-left:1px solid dimgray;
+    }
+
 
 #GM {
     margin-top: 40px;
     height: 400px;
     width: auto;
 }
+
+#footer {
+    height: 100vh;
+}
+
+
+document.onscroll = function() {
+    if( $(window).scrollTop() > $('header').height() ) {
+        $('nav > div.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
+    }
+    else {
+        $('nav > div.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
+    }
+};

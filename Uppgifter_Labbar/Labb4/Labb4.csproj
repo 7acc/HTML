@@ -94,8 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\activityimg1.jpg" />
+    <Content Include="Images\activityimg1.png" />
+    <Content Include="Images\activityimg2.jpg" />
+    <Content Include="Images\activityimg3.jpg" />
     <Content Include="Images\grävmaskin.jpg" />
     <Content Include="Images\malediwy1.jpg" />
+    <Content Include="Images\restaurant-tables-with-sea-view.jpg" />
     <Content Include="Images\total-slides-sunset.jpg" />
     <Content Include="MainStyle.css" />
     <Content Include="packages.config" />
