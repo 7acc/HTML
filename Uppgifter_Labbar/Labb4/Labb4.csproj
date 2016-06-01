@@ -98,6 +98,11 @@
     <Content Include="Images\activityimg1.png" />
     <Content Include="Images\activityimg2.jpg" />
     <Content Include="Images\activityimg3.jpg" />
+    <Content Include="Images\Gallery\glowing beach.jpg" />
+    <Content Include="Images\Gallery\glowing footprints.jpg" />
+    <Content Include="Images\Gallery\glowing plankton stones.jpg" />
+    <Content Include="Images\Gallery\glowing rocks.jpg" />
+    <Content Include="Images\Gallery\glowing wakes.jpg" />
     <Content Include="Images\grävmaskin.jpg" />
     <Content Include="Images\malediwy1.jpg" />
     <Content Include="Images\restaurant-tables-with-sea-view.jpg" />
@@ -152,6 +157,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

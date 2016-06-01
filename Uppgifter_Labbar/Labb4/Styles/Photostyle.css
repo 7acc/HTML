@@ -1,3 +1,65 @@
 ﻿@import url(navbar.css);
+@import url(https://fonts.googleapis.com/css?family=Chicle);
 body {
+  margin:0;
+  
+
 }
+.title {
+    width:100%;
+    margin-top:10px;
+    font-size:4em;
+    font-family: 'Chicle', cursive;
+    text-align:center;
+  
+    
+}
+.container{
+     width:100%;
+    margin:5%;
+}
+.container-fluid .container{
+      width:100%;   
+   height:200px; 
+    font-size: 7rem;
+    text-align: center;
+    display:block;
+  
+  
+    
+}
+
+.card {
+    width: 100%;
+     height:100%;
+    position: absolute;  
+    transform-style: preserve-3d;    
+    transition: transform 1s;
+    
+}
+
+.card figure {   
+    position: absolute;
+    width: 100%;
+   height:100%;     
+    backface-visibility:hidden;
+}
+
+.card img{
+  height:100%;
+}
+.card .front{
+    width:100%;
+}
+.card .back{
+     width:100%;
+    background-color:coral;
+    transform: rotateY(180deg);
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.tvau .card:hover{
+    transform:rotateX(180deg);
+}
+
