@@ -5,9 +5,9 @@
 	<meta charset="utf-8" />
     <script src="../scripts/jquery-2.2.3.js"></script>
     <script src="../scripts/bootstrap.js"></script>
-    <script src="../scripts/Snapshot.js"></script>
+    <link href="../Styles/Photostyle.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="../Styles/Videosstyle.css" rel="stylesheet" />
+
 </head>
 <body>
     <header id="header">
@@ -26,14 +26,14 @@
             <div class="col-lg-4"></div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a class="active" href="../index.html">Home</a></li>                  
+                    <li><a class="active" href="../index.html">Home</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Gallery
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="photos.html">Photos</a></li>
+                            <li><a href="#">Photos</a></li>
                             <li class="divider"></li>
                             <li><a href="videos_snapshot.html">Videos</a></li>
                         </ul>
@@ -46,32 +46,5 @@
     </header>
 
 
-    <div class="container-fluid">
-     <div class="col-lg-1"></div>
-        <div class="col-lg-4">
-            <figure>
-                <img id="tv"src="../Images/tv_frame (1).png" />
-                <iframe id="myvideo1" width="350" height="300" src="https://www.youtube.com/embed/g-ATOpjPpEE" frameborder="0"></iframe>             
-                <figcaption>
-                    <button id="snapshot1" value="SnapShot">SnapShot</button>
-                    <canvas id="mycanvas1" width="350" height="300"></canvas>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="col-lg-2"></div>
-        <div class="col-lg-4">
-            <figure>
-                <img id="tv" src="../Images/tv_frame (1).png" />
-
-                <iframe id="myvideo2" width="350" height="300" src="https://www.youtube.com/embed/g-ATOpjPpEE" frameborder="0"></iframe>
-                
-                <figcaption>
-                    <button id="snapshot2" value="SnapShot">SnapShot</button>
-                    <canvas id="mycanvas2" width="400" height="320"></canvas>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="col-lg-1"></div>
-    </div>
 </body>
 </html>

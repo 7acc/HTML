@@ -1,5 +1,7 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Chicle);
-@import url(navbar.css);
+﻿@import url(navbar.css);
+@import url(https://fonts.googleapis.com/css?family=Chicle);
+
+
 body {
     margin: 0;
     background-color: red;
