@@ -13,8 +13,9 @@ body {
 }
 
 #topimg {
-    background: url(../Images/malediwy1.jpg) no-repeat fixed top;
+    background: url(../Images/malediwy1.jpg) no-repeat fixed center;
     background-size:cover;
+
     color: #b6ff00;
     font-family: 'Chicle', cursive;
 }
