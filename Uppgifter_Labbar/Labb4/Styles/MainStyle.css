@@ -1,45 +1,17 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Chicle);
-
+@import url(navbar.css);
 body {
     margin: 0;
     background-color: red;
 }
-.affix {
-      top:0;
-      width: 100%;
-      z-index: 9999 ;
-  }
 
-#header {
-    height: 170px;
-    background: url(Images/total-slides-sunset.jpg) no-repeat center;
-    background-size:cover;
-}
-
-    #header h2 {
-        position: absolute;
-        top: 10px;
-        width: 100%;
-        color: #ff6a00;
-        font-family: monospace;
-        font-size: 7em;
-        text-align: center;
-    }
-
-nav {
-    position: absolute;
-    top: 120px;
-}
-.navbar-nav{
-    margin-left:100px;
-}
 
 #topimg, #middleimg, #botimg {
     height: 400px;
 }
 
 #topimg {
-    background: url(Images/malediwy1.jpg) no-repeat fixed top;
+    background: url(../Images/malediwy1.jpg) no-repeat fixed top;
     background-size:cover;
     color: #b6ff00;
     font-family: 'Chicle', cursive;
@@ -53,12 +25,12 @@ nav {
     }
 
 #middleimg {
-    background: url(Images/activityimg1.png) fixed;
+    background: url(../Images/activityimg1.png) fixed;
     background-size: cover;
 }
 
 #botimg {
-    background: url(Images/restaurant-tables-with-sea-view.jpg) fixed center;
+    background: url(../Images/restaurant-tables-with-sea-view.jpg) fixed center;
     background-size: cover;
 }
 

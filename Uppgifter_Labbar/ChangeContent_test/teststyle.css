@@ -1,0 +1,7 @@
+﻿.radios{
+    display:none;
+}
+.radio input[type="radio"]:checked + label {
+   color:red;
+   font-size:2em;
+}

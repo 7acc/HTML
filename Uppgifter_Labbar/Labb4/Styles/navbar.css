@@ -1,0 +1,31 @@
+﻿body {
+}
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 ;
+  }
+
+#header {
+    height: 170px;
+    background: url(../Images/total-slides-sunset.jpg) no-repeat center;
+    background-size:cover;
+}
+
+    #header h2 {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        color: #ff6a00;
+        font-family: monospace;
+        font-size: 7em;
+        text-align: center;
+    }
+
+nav {
+    position: absolute;
+    top: 120px;
+}
+.navbar-nav{
+    margin-left:100px;
+}

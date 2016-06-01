@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B69D013E-EFD0-4AC4-9F7E-3F60E925C7B6}</ProjectGuid>
+    <ProjectGuid>{FD80A1CD-349D-49AF-BBFC-92ED7F890145}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Labb4</RootNamespace>
-    <AssemblyName>Labb4</AssemblyName>
+    <RootNamespace>canvas</RootNamespace>
+    <AssemblyName>canvas</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,25 +94,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\activityimg1.jpg" />
-    <Content Include="Images\activityimg1.png" />
-    <Content Include="Images\activityimg2.jpg" />
-    <Content Include="Images\activityimg3.jpg" />
-    <Content Include="Images\grävmaskin.jpg" />
-    <Content Include="Images\malediwy1.jpg" />
-    <Content Include="Images\restaurant-tables-with-sea-view.jpg" />
-    <Content Include="Images\total-slides-sunset.jpg" />
-    <None Include="scripts\jquery-2.2.3.intellisense.js" />
-    <Content Include="scripts\jquery-2.2.3.js" />
-    <Content Include="scripts\jquery-2.2.3.min.js" />
-    <Content Include="Styles\MainStyle.css" />
-    <Content Include="Styles\navbar.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Pages\game.html" />
-    <Content Include="Pages\videos_snapshot.html" />
+    <None Include="scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="scripts\drawcanvas.js" />
+    <Content Include="scripts\JavaScript.js" />
+    <Content Include="scripts\jquery-2.2.3.js" />
+    <Content Include="scripts\jquery-2.2.3.min.js" />
     <Content Include="scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -122,25 +112,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="scripts\bootstrap.js" />
-    <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="Styles\Videosstyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -159,9 +133,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>17598</DevelopmentServerPort>
+          <DevelopmentServerPort>6403</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:17598/</IISUrl>
+          <IISUrl>http://localhost:6403/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
