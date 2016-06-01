@@ -6,8 +6,16 @@ body {
     margin: 0;
     background-color: red;
 }
-
-
+.radio{
+    line-break:loose;
+}
+.radios{
+    display:none;
+}
+.radio input[type="radio"]:checked + label {
+   color:red;
+   font-size:2em;
+}
 #topimg, #middleimg, #botimg {
     height: 400px;
 }
@@ -39,7 +47,7 @@ body {
 
 #contenttop, #contentmiddle, #contentbot {
     background-color: white;
-    height: auto;
+    height: auto;  
 }
 
     #contenttop, #contentmiddle, #contentbot p {
@@ -51,7 +59,9 @@ body {
         height:auto;
         border-left:1px solid dimgray;
     }
-
+    #contenttop{
+        min-height:520px;
+    }
 
 #GM {
     margin-top: 40px;
@@ -60,7 +70,9 @@ body {
 }
 
 #footer {
-    height: 100vh;
+    color:blue;
+    background-color:#2a2925;
+    height: 50vh;
 }
 
 

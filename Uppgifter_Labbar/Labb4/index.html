@@ -3,18 +3,19 @@
 <head>
     <title>Bootstrap Island</title>
     <meta charset="utf-8" />
-
-    <script src="scripts/jquery-2.2.3.js"></script>
-    <script src="scripts/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="contentchange.js"></script>   
+    <script src="scripts/bootstrap.js"></script>  
     <link href="Styles/MainStyle.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    
+
+
 
 </head>
 <body data-spy="scroll" data-target="#naven" data-offset="50">
     <header id="header">
         <h2 id="headerhead">Nilandhoo</h2>
-        <nav id="naven"class="navbar navbar-inverse" data-spy="affix" data-offset-top="120" role="navigation">
+        <nav id="naven" class="navbar navbar-inverse" data-spy="affix" data-offset-top="120" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle"
                         data-toggle="collapse" data-target="#navbar-collapse">
@@ -28,14 +29,14 @@
             <div class="col-lg-4"></div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a class="active"href="#headerhead">Welcome</a></li>
+                    <li><a class="active" href="#headerhead">Welcome</a></li>
                     <li><a href="#contenttop">About</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="Pages/photos.html">Photos</a></li>
                             <li class="divider"></li>
-                            <li><a href="Pages/videos_snapshot.html">Videos</a></li>                           
+                            <li><a href="Pages/videos_snapshot.html">Videos</a></li>
                         </ul>
 
                     </li>
@@ -50,28 +51,60 @@
         <div class="col-lg-2"></div>
     </div>
     <div id="contenttop" class="container-fluid">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-2">  
-            <article>
-                <p>
-                    <h2 >About The Island</h2>
-                </p>
+       
+        <div class="col-lg-3">
+            <article >
+
+                <form class="radio">
+
+                    <input type="radio" id="test1" name="test" class="radios" checked />
+                    <label for="test1">About The Island</label><br />
+
+                    <input type="radio" id="test2" name="test" class="radios" />
+                    <label for="test2" id="label2">About The Culture</label><br />
+
+                    <input type="radio" id="test3" name="test" class="radios" />
+                    <label for="test3">About The Weather</label><br />
+
+
+
+                </form>
+                <div>
+                    <p id="about the island1" class="hidden">
+                        Messenger bag kogi migas ennui. Man braid microdosing sunt tofu chambray chartreuse craft beer mumblecore. Four loko fixie blue bottle, meggings dolor deep v man braid forage ugh ethical viral yuccie truffaut qui hashtag. Franzen scenester blue bottle eu listicle nesciunt. Bushwick chambray locavore chia, street art marfa anim raw denim yuccie squid occaecat banh mi. Fanny pack iPhone four loko, taxidermy velit nulla XOXO nisi. Keytar typewriter kitsch, intelligentsia wolf 8-bit anim.
+
+                        Literally keytar kogi yr pour-over XOXO, put a bird on it photo booth. Ennui vegan echo park readymade. Laboris eu fashion axe cred. Laboris consectetur venmo selfies incididunt. Irure chambray ex, anim deserunt do officia sriracha street art waistcoat esse. Ex sustainable chicharrones, literally next level brooklyn chartreuse chambray consequat kinfolk officia eu selvage. Salvia reprehenderit 3 wolf moon cred, minim chia post-ironic proident single-origin coffee messenger bag venmo you probably haven't heard of them.
+                    </p>
+                    <p id="about the island2" class="hidden">
+                        Sartorial microdosing gentrify, pop-up offal helvetica qui keffiyeh. Post-ironic irony gochujang williamsburg nihil, health goth laboris. 90's lomo tattooed, waistcoat single-origin coffee et health goth actually cornhole ea in fanny pack gastropub. Narwhal fashion axe roof party lomo. Sustainable art party esse sapiente sunt kale chips. Cliche adipisicing listicle kombucha eiusmod. Velit wayfarers mixtape chia messenger bag deserunt.
+
+                        Typewriter reprehenderit eu aute, etsy kitsch ut. Cardigan nisi vegan fanny pack organic. Anim brunch ramps fashion axe franzen pabst, bushwick truffaut kale chips consequat shabby chic. Locavore tofu exercitation, gastropub ethical butcher shabby chic aute godard sriracha taxidermy. Aute sriracha cardigan celiac, keytar roof party man bun cliche gluten-free dreamcatcher cillum ut ugh waistcoat. Forage non sriracha ex fixie, street art eu. Four loko intelligentsia iPhone excepteur sint poutine.
+                    </p>
+                    <p id="about the culture1" class="hidden">
+                        Bacon ipsum dolor amet ground round fatback ball tip, jowl frankfurter ham prosciutto turducken tenderloin sausage landjaeger picanha. Flank ground round jerky pork short loin, spare ribs tri-tip bacon meatloaf rump turkey drumstick tail. Doner sausage kielbasa porchetta. Pork chop boudin andouille cupim shank pastrami biltong. Rump sausage pork chop alcatra short ribs pork belly.
+
+                        Ball tip pork chop beef ribs frankfurter venison turkey. Leberkas swine landjaeger andouille. Pork chop pork ham, spare ribs rump flank tongue corned beef cupim. Boudin porchetta sirloin leberkas, short ribs kielbasa capicola. Ribeye swine beef ribs venison bresaola pig tenderloin brisket prosciutto meatball kevin. Prosciutto pork loin kevin beef. Ham hock shank brisket doner swine, landjaeger corned beef chuck.
+                    </p>
+                    <p id="about the culture2" class="hidden">
+                        Kielbasa porchetta short loin, shoulder strip steak shank bresaola meatball pig rump venison shankle prosciutto bacon tenderloin. Pork beef ribs bresaola beef venison. Bresaola ham short ribs tongue turducken alcatra swine drumstick pork belly pork loin spare ribs tail ball tip doner meatball. Pig pork belly turkey, flank chuck shank boudin venison capicola frankfurter. Prosciutto turkey biltong kielbasa pancetta. Prosciutto pork belly tri-tip fatback pork loin. Kielbasa filet mignon flank, spare ribs tail venison rump capicola doner cow ribeye bresaola.
+
+                        Turducken corned beef tail, drumstick ham hock pork chop venison capicola salami sausage shoulder. Ground round pancetta tenderloin jerky, shank sirloin salami tongue pork drumstick ham. Bresaola chicken shoulder corned beef bacon tongue. Jerky leberkas sausage strip steak brisket, short ribs pork belly meatloaf drumstick kielbasa swine turkey. Venison short ribs meatloaf tail t-bone porchetta biltong.
+                    </p>
+                    <p id="about the weather1" class="hidden">
+                        Antarctic cod tadpole fish hammerhead shark clownfish Canthigaster rostrata salamanderfish dwarf loach houndshark, danio sea toad sawtooth eel." Sturgeon: danio lemon shark; duckbill eel, Celebes rainbowfish Sevan trout zebra tilapia dwarf loach. Tommy ruff goblin shark featherfin knifefish lionfish flashlight fish slickhead, powen, "deepwater cardinalfish wolffish Devario hillstream loach, long-finned char." Drum eelblenny striped burrfish knifefish anglerfish; olive flounder--rock cod jewfish skipping goby ladyfish canary rockfish. Powen Red salmon pelican gulper threadfin bream southern Dolly Varden goby tetra batfish, dogfish shark dartfish graveldiver round herring. Mrigal burbot garibaldi sea lamprey Black tetra oilfish burma danio opaleye sole hussar jawfish, "Devario kahawai yellowfin croaker." Trumpeter sprat searobin, goldfish, yellowmargin triggerfish hake zebra turkeyfish Owens pupfish eel-goby South American Lungfish. Tripletail burrowing goby temperate ocean-bass cardinalfish greenling: deepwater stingray stonefish thornyhead grunt chub porgy longfin dragonfish!
+                    </p>
+                    <p id="about the weather2" class="hidden">
+                        Rough pomfret Antarctic cod duckbilled barracudina, orbicular batfish, steelhead flabby whalefish, spiny eel threadfin oceanic whitetip shark greenling shortnose greeneye. Gray mullet morwong tadpole cod sleeper shark crestfish: dusky grouper Moorish idol skipjack tuna tilapia, featherfin knifefish. Bangus, rice eel four-eyed fish pikehead velvetfish yellowfin pike, opaleye sheatfish, "Oregon chub," false moray. Lenok pearleye New World rivuline amur pike kissing gourami spotted dogfish staghorn sculpin flyingfish hammerhead shark, "cornetfish beluga sturgeon." Sea catfish sandbar shark, warbonnet: mudskipper tubeblenny common carp Atlantic saury round stingray. Blackchin garpike sea lamprey shark prowfish goldspotted killifish rockfish pink salmon triplespine largenose fish; climbing perch conger eel. Tidewater goby Canthigaster rostrata saury, topminnow, codling olive flounder scup, man-of-war fish, weeverfish warbonnet opaleye rohu Razorback sucker. Menhaden cusk-eel Owens pupfish; ropefish, dragon goby eeltail catfish. Sixgill ray Pacific herring alligatorfish; mustache triggerfish crevice kelpfish, great white shark cutthroat eel southern grayling electric stargazer Redhorse sucker? Yellow tang longfin dragonfish northern pike sea catfish combtail gourami lemon shark. Unicorn fish sea snail coho salmon jewel tetra, roundhead bonytongue yellowfin pike, halfbeak silver hake. Longnose sucker pencil catfish glowlight danio cepalin steelhead pikehead wallago jellynose fish pirate perch longfin smelt plunderfish yellowfin croaker. Rivuline kokopu dogfish; gianttail jewfish Russian sturgeon tetra.
+                    </p>
+                </div>
             </article>
         </div>
 
-        <div class="col-lg-4">
-            Messenger bag kogi migas ennui. Man braid microdosing sunt tofu chambray chartreuse craft beer mumblecore. Four loko fixie blue bottle, meggings dolor deep v man braid forage ugh ethical viral yuccie truffaut qui hashtag. Franzen scenester blue bottle eu listicle nesciunt. Bushwick chambray locavore chia, street art marfa anim raw denim yuccie squid occaecat banh mi. Fanny pack iPhone four loko, taxidermy velit nulla XOXO nisi. Keytar typewriter kitsch, intelligentsia wolf 8-bit anim.
-
-            Literally keytar kogi yr pour-over XOXO, put a bird on it photo booth. Ennui vegan echo park readymade. Laboris eu fashion axe cred. Laboris consectetur venmo selfies incididunt. Irure chambray ex, anim deserunt do officia sriracha street art waistcoat esse. Ex sustainable chicharrones, literally next level brooklyn chartreuse chambray consequat kinfolk officia eu selvage. Salvia reprehenderit 3 wolf moon cred, minim chia post-ironic proident single-origin coffee messenger bag venmo you probably haven't heard of them.
+        <div id="about-fp" class="col-lg-4">
+            <p id="c1"></p>
         </div>
-        <div class="col-lg-4">
-            <article>
-                <p>
-                    Sartorial microdosing gentrify, pop-up offal helvetica qui keffiyeh. Post-ironic irony gochujang williamsburg nihil, health goth laboris. 90's lomo tattooed, waistcoat single-origin coffee et health goth actually cornhole ea in fanny pack gastropub. Narwhal fashion axe roof party lomo. Sustainable art party esse sapiente sunt kale chips. Cliche adipisicing listicle kombucha eiusmod. Velit wayfarers mixtape chia messenger bag deserunt.
-
-                    Typewriter reprehenderit eu aute, etsy kitsch ut. Cardigan nisi vegan fanny pack organic. Anim brunch ramps fashion axe franzen pabst, bushwick truffaut kale chips consequat shabby chic. Locavore tofu exercitation, gastropub ethical butcher shabby chic aute godard sriracha taxidermy. Aute sriracha cardigan celiac, keytar roof party man bun cliche gluten-free dreamcatcher cillum ut ugh waistcoat. Forage non sriracha ex fixie, street art eu. Four loko intelligentsia iPhone excepteur sint poutine.
-                </p>
-            </article>
+        <div id="content2" class="col-lg-4">
+            <p id="c2"></p>
         </div>
         <div class="col-lg-1"></div>
     </div>

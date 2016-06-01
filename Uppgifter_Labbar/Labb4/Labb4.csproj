@@ -111,6 +111,7 @@
     <Content Include="Images\tv_frame %281%29.png" />
     <Content Include="Images\tv_frame.png" />
     <Content Include="Pages\photos.html" />
+    <Content Include="contentchange.js" />
     <Content Include="scripts\jquery-2.2.3.js" />
     <Content Include="scripts\jquery-2.2.3.min.js" />
     <Content Include="scripts\Snapshot.js" />
