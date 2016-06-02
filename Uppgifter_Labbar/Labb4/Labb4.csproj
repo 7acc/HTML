@@ -124,6 +124,7 @@
     <Content Include="scripts\jquery-2.2.3.min.js" />
     <Content Include="scripts\rating.js" />
     <Content Include="scripts\Snapshot.js" />
+    <Content Include="Sound\Hawaii 5-0 Theme %28classic%29.mp3" />
     <Content Include="Styles\Contactstyle.css" />
     <Content Include="Styles\FishStyle.css" />
     <Content Include="Styles\MainStyle.css" />
