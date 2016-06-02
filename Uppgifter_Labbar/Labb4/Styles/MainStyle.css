@@ -68,11 +68,14 @@ body {
     height: 400px;
     width: auto;
 }
+#spacer1{
+    margin-top:5%;
 
+}
 #footer {
     color:blue;
     background-color:#2a2925;
-    height: 50vh;
+    height:30vh;
 }
 
 
