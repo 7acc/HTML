@@ -1,0 +1,89 @@
+﻿
+@import url('navbar.css');
+
+body {
+}
+
+.container-fluid {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+#controls {
+    top: 200px;
+    width: 100%;
+    height: 200px;
+}
+
+#tankdiv {
+    margin-top: 100px;
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+}
+
+#fishtank {
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    background-color: red;
+}
+
+#muray {
+    margin: 15px;
+    z-index: 6;
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    
+    animation: muraymove 10s infinite ease;
+}
+#SW2{
+    position:absolute;
+    bottom:-11%;
+    left:50%;
+    z-index:4;
+    width:20%;
+}
+#SW1{
+    position:absolute;
+    bottom:-16%;
+    left:20%;
+    z-index:7;
+}
+
+@keyframes muraymove {
+    0% {
+        right: 89%;
+        bottom: 83%;
+        transform:rotate(0);
+    }
+
+    25% {
+        bottom: 5%;
+        right: 89%;
+       transform: rotate(180deg);
+       
+    }
+
+    50% {
+        bottom: 5%;
+        right: 0%;
+         transform:rotate(3000deg);
+       
+    }
+    75%{
+        bottom: 83%;
+        right: 0%;
+          transform:rotate(3000deg);
+        
+        
+    }
+    100% {
+        right: 89%;
+        bottom: 83%;
+         transform:rotate(2910deg);
+    }
+}

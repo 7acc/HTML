@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="../scripts/bootstrap.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Styles/Contactstyle.css" rel="stylesheet" />
+    <script src="../scripts/rating.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h2 id="headerhead">Nilandhoo</h2>
+        <nav id="naven" class="navbar navbar-inverse" data-spy="affix" data-offset-top="120" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                        data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Contact lol</a>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a class="active" href="../index.html">Home</a></li>
+                    <li><a href="game.html">Game</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Gallery
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="videos_snapshot.html">Videos</a></li>
+                            <li><a href="../Pages/photos.html">Photos</a></li>
+                            <li class="divider"></li>
+                            <li><a href="videos_snapshot.html">Videos</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="spacer1"></div>
+    <div class="container-fluid">
+        <div class="col-sm-3"></div>
+        <div id="contactform" class="col-sm-6">
+            <form  id="form"class="radio">
+                <div>
+                    <label for="Fname">First Name</label>
+                    <input type="text" id="Fname" />
+                </div>
+                <div>
+                    <label for="Lname">Last Name</label>
+                    <input type="text" id="Fname" />
+                </div>
+                <div>
+                    <label for="Phone">Phone Number</label>
+                    <input type="tel" id="Phone" />
+                </div>
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" />
+                </div>
+                <div id="radiodiv">
+                    <input class="radios" id="awesome" type="radio" name="radio" />
+                    <label for="awesome">AWESOME!</label>
+                    <input class="radios" id="meh" type="radio" name="radio" />
+                    <label for="meh">Meeh!</label>
+                    <input class="radios" id="terrible" type="radio" name="radio" />
+                    <label for="terrible">TERRIB</label>
+
+
+                    <div id="smiley"></div>
+                </div>
+             
+            </form>
+            <input id="send" type="submit" value="Send" />
+
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+
+    <div id="good" class="hidden">
+        <img class="smiley" src="../Images/Rating/good.png" />
+    </div>
+    <div id="meeh" class="hidden">
+        <img class="smiley" src="../Images/Rating/meh.png" />
+    </div>
+    <div id="bad" class="hidden">
+        <img class="smiley" src="../Images/Rating/bad.png" />
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>

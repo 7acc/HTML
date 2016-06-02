@@ -1,0 +1,42 @@
+﻿@import url('navbar.css');
+
+body {
+    background:url(//www.villahotels.com/var/villa/storage/images/media/galleries/holiday-island/holiday-island-resort-spa-2/7424-3-eng-GB/Holiday-Island-Resort-Spa-2.jpg) no-repeat;
+    background-size:cover;
+}
+
+.radios{
+    display:none;
+}
+.smiley{
+    width:200px;
+
+}
+label{
+    width:150px;
+    margin-right:10px;
+}
+#contactform{
+    margin-top:100px;
+    height:500px;
+    background-color:aqua;
+    opacity:0.9;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+form{
+    color:black;
+    opacity:1;
+}
+#send{
+    position:absolute;
+    bottom:20px;
+}
+footer{
+    position:absolute;
+    bottom:0px;
+    height:10%;
+    width:100%;
+    background-color:darkslategrey;
+}
